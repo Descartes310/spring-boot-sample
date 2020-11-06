@@ -1,4 +1,4 @@
-package com.geloka.api.configurations;
+package com.smartnjangui.api.configurations;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -18,9 +18,9 @@ import org.springframework.security.oauth2.provider.OAuth2Authentication;
 import org.springframework.security.oauth2.provider.OAuth2Request;
 import org.springframework.security.oauth2.provider.token.DefaultTokenServices;
 
-import com.geloka.api.services.CustomUserDetailsService.CustomUserPrincipal;
-import com.geloka.api.repositories.entities.User;
-import com.geloka.api.services.UserService;
+import com.smartnjangui.api.repositories.entities.User;
+import com.smartnjangui.api.services.UserService;
+import com.smartnjangui.api.services.CustomUserDetailsService.CustomUserPrincipal;
 
 
 public final class Utilities

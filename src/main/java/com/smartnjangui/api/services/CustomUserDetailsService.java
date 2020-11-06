@@ -1,4 +1,4 @@
-package com.geloka.api.services;
+package com.smartnjangui.api.services;
 
 import java.io.Serializable;
 import java.util.Collection;
@@ -13,7 +13,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
 
-import com.geloka.api.repositories.entities.User;
+import com.smartnjangui.api.repositories.entities.User;
 
 
 @SuppressWarnings("serial")

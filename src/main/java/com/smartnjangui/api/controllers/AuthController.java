@@ -1,4 +1,4 @@
-package com.geloka.api.controllers;
+package com.smartnjangui.api.controllers;
 
 
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.geloka.api.services.UserService;
+import com.smartnjangui.api.services.UserService;
 
 import io.swagger.annotations.Api;
 
@@ -33,7 +33,7 @@ public class AuthController {
 	
 	@GetMapping("/test")
 	public String test() {
-		return "Geloka API is working";
+		return "Smart Njangui API is working";
 	}
 
 }

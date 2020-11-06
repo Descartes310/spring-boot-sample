@@ -1,4 +1,4 @@
-package com.geloka.api.configurations;
+package com.smartnjangui.api.configurations;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer;

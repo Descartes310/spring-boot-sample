@@ -1,4 +1,4 @@
-package com.geloka.api.repositories.entities;
+package com.smartnjangui.api.repositories.entities;
 
 import java.io.Serializable;
 

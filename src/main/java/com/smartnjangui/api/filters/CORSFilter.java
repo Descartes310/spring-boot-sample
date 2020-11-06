@@ -1,4 +1,4 @@
-package com.geloka.api.filters;
+package com.smartnjangui.api.filters;
 
 import java.io.IOException;
 

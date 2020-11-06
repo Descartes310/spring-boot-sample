@@ -73,7 +73,7 @@ create table oauth_approvals
 INSERT INTO oauth_client_details
     (client_id, resource_ids, client_secret, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove)
 VALUES
-    ('geloka-app', 'geloka-api', '$2y$12$3FO.GovgIzEY8EvRL15iJee5xyJnA7eC6p8CQoXY.yfTMKviRwBha', 'read,write,trust', 'implicit,password,authorization_code,refresh_token,client_credentials', '', '', 31536000, 31536000, '{}', '');
+    ('smartnjangui-app', 'smartnjangui-api', '$2y$12$3FO.GovgIzEY8EvRL15iJee5xyJnA7eC6p8CQoXY.yfTMKviRwBha', 'read,write,trust', 'implicit,password,authorization_code,refresh_token,client_credentials', '', '', 31536000, 31536000, '{}', '');
 
 
 -- password is 1234 for all users

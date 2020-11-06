@@ -1,4 +1,4 @@
-package com.geloka.api.configurations;
+package com.smartnjangui.api.configurations;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
@@ -13,7 +13,7 @@ import org.springframework.security.oauth2.provider.error.OAuth2AccessDeniedHand
 public class ResourceServerConfig extends ResourceServerConfigurerAdapter
 {
 
-	private static final String RESOURCE_ID = "geloka-api";
+	private static final String RESOURCE_ID = "smartnjangui-api";
 
 	@Override
 	public void configure(ResourceServerSecurityConfigurer resources) throws Exception

@@ -1,12 +1,12 @@
-package com.geloka.api;
+package com.smartnjangui.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GelokaApplication {
+public class SmartNjanguiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GelokaApplication.class, args);
+		SpringApplication.run(SmartNjanguiApplication.class, args);
 	}
 }

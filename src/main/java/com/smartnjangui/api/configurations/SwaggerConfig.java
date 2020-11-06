@@ -1,4 +1,4 @@
-package com.geloka.api.configurations;
+package com.smartnjangui.api.configurations;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -40,7 +40,7 @@ public class SwaggerConfig {
 				.apiInfo(apiInfo())
 //				.tags(tags()[0], tags())
 				.select()
-				.apis(RequestHandlerSelectors.basePackage("com.geloka.api.controllers"))
+				.apis(RequestHandlerSelectors.basePackage("com.smartnjangui.api.controllers"))
 				.paths(PathSelectors.any())
 				.build()
 				.directModelSubstitute(java.sql.Timestamp.class, Timestamp.class)
@@ -50,7 +50,7 @@ public class SwaggerConfig {
 	
 
 	private ApiInfo apiInfo() {
-        return new ApiInfoBuilder().title("Geloka API").version("1.0.0").build();
+        return new ApiInfoBuilder().title("Smart Njangui API").version("1.0.0").build();
     }
 	
 //	private Tag[] tags() {

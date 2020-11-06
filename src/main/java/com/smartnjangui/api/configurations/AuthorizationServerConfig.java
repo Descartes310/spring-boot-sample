@@ -1,4 +1,4 @@
-package com.geloka.api.configurations;
+package com.smartnjangui.api.configurations;
 
 import javax.sql.DataSource;
 

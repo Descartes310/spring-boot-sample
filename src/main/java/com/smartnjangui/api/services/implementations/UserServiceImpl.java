@@ -1,10 +1,10 @@
-package com.geloka.api.services.implementations;
+package com.smartnjangui.api.services.implementations;
 
 import org.springframework.stereotype.Service;
 
-import com.geloka.api.repositories.UserRepository;
-import com.geloka.api.repositories.entities.User;
-import com.geloka.api.services.UserService;
+import com.smartnjangui.api.repositories.UserRepository;
+import com.smartnjangui.api.repositories.entities.User;
+import com.smartnjangui.api.services.UserService;
 
 @Service
 public class UserServiceImpl implements UserService{
